@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  solr:
+    image: solr
+    ports:
+    - "8983:8983"
+    volumes:
+    - solrIndex:/opt/solr/server/solr/true_posts
+    entrypoint:
+    - solr-precreate
+    - my_core
+volumes:
+  solrIndex:
