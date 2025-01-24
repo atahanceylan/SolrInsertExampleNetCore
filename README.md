@@ -8,5 +8,4 @@ You check Solr is working on your local via http://localhost:8983/solr/#/ URL fr
 
 2) When you run project you will be able to insert post to Solr document database.
 ![Swagger UI](https://github.com/atahanceylan/SolrInsertExampleNetCore/blob/main/swagger_ui_solr_insert.PNG)
-This project built based on https://stacksecrets.com/dot-net-core/integrate-solr-instance-with-net-core article
 
